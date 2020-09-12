@@ -8,6 +8,7 @@ type AccordionPropsType = {
     collapsed: boolean
 }
 
+
 export function Accordion(props: AccordionPropsType) {
     debugger
     if (props.collapsed) {
